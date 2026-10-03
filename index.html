@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SABOR | Restaurante</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <h2 class="logo">SABOR</h2>
+
+    <nav class="navbar">
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#menu">Menú</a>
+        <a href="#contacto">Contáctanos</a>
+    </nav>
+
+    <button class="menu-btn" id="menuBtn">☰</button>
+</header>
+
+<section class="hero" id="inicio">
+    <div>
+        <p>BIENVENIDOS A</p>
+        <h1>El verdadero <span>sabor</span></h1>
+        <p>
+            Disfruta platos preparados con ingredientes frescos,
+            recetas especiales y mucho sabor.
+        </p>
+        <a href="#menu" class="btn">Ver menú</a>
+    </div>
+
+    <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80">
+    </div>
+</section>
+
+<section class="about" id="nosotros">
+    <div class="about-image">
+        <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80">
+    </div>
+
+    <div>
+        <p class="subtitle">CONÓCENOS</p>
+        <h2>Una experiencia llena de sabor</h2>
+        <p>
+            En SABOR nos encanta crear momentos especiales
+            alrededor de una buena comida. Combinamos calidad,
+            creatividad y tradición en cada plato.
+        </p>
+    </div>
+</section>
+
+<section id="menu">
+    <div class="title">
+        <p>LO MÁS DELICIOSO</p>
+        <h2>Nuestro Menú</h2>
+    </div>
+
+    <div class="products">
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=600&q=80">
+            <h3>Pizza Especial</h3>
+            <p>Pizza artesanal con ingredientes frescos.</p>
+            <strong>$28.000</strong>
+            <button class="add-cart">Ordenar</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80">
+            <h3>Hamburguesa Sabor</h3>
+            <p>Carne, queso, vegetales y salsa especial.</p>
+            <strong>$25.000</strong>
+            <button class="add-cart">Ordenar</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=600&q=80">
+            <h3>Pasta Italiana</h3>
+            <p>Pasta cremosa con nuestra salsa especial.</p>
+            <strong>$24.000</strong>
+            <button class="add-cart">Ordenar</button>
+        </div>
+
+    </div>
+</section>
+
+<section class="banner">
+    <h2>¡El sabor que estabas buscando!</h2>
+    <p>Ven y disfruta una experiencia diferente.</p>
+</section>
+
+<section id="contacto">
+    <div class="title">
+        <p>HABLEMOS</p>
+        <h2>Contáctanos</h2>
+    </div>
+
+    <form id="contactForm">
+        <input type="text" placeholder="Nombre" required>
+        <input type="email" placeholder="Correo" required>
+        <textarea placeholder="Mensaje" required></textarea>
+        <button class="btn">Enviar</button>
+    </form>
+</section>
+
+<div id="cartMessage">¡Producto agregado a tu pedido!</div>
+
+<footer>
+    <h2>SABOR</h2>
+    <p>© 2026 Restaurante SABOR</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
